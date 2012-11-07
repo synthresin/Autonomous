@@ -19,6 +19,7 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C6E59194164A3048001A77BF /* FlowField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6E59192164A3048001A77BF /* FlowField.cpp */; };
 		C6FA30CE16493CF1006562F9 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6FA30CC16493CF1006562F9 /* Vehicle.cpp */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Autonomous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autonomous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E59192164A3048001A77BF /* FlowField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlowField.cpp; sourceTree = "<group>"; };
+		C6E59193164A3048001A77BF /* FlowField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowField.h; sourceTree = "<group>"; };
 		C6FA30CC16493CF1006562F9 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
 		C6FA30CD16493CF1006562F9 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,8 @@
 				00BAE6590E7ED9C10018A608 /* AutonomousApp.cpp */,
 				C6FA30CD16493CF1006562F9 /* Vehicle.h */,
 				C6FA30CC16493CF1006562F9 /* Vehicle.cpp */,
+				C6E59192164A3048001A77BF /* FlowField.cpp */,
+				C6E59193164A3048001A77BF /* FlowField.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			files = (
 				00BAE65A0E7ED9C10018A608 /* AutonomousApp.cpp in Sources */,
 				C6FA30CE16493CF1006562F9 /* Vehicle.cpp in Sources */,
+				C6E59194164A3048001A77BF /* FlowField.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
