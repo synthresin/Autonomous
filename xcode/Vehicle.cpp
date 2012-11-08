@@ -8,6 +8,7 @@
 
 #include "Vehicle.h"
 
+
 Vehicle::Vehicle()
 :acceleration(Vec2f::zero()), velocity(Vec2f::zero()), location(Vec2f::zero()), r(6.0f), maxspeed(5.0f), maxforce(0.1)
 {

@@ -7,6 +7,7 @@ cCpResource CinderApp.icns ./build/Debug/Autonomous.app/Contents/Resources/Cinde
 cProcessPCH++ /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch.pth Autonomous_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous normal i386
 cTouch /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app
 
@@ -5335,6 +5336,11 @@ c000000004FADAEF30000000000001BF8
 t1336782579
 s7160
 
+N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../../../include/cinder/Perlin.h
+c000000004FADAEF30000000000000BAC
+t1336782579
+s2988
+
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../../../include/cinder/PolyLine.h
 c000000004FADAEF30000000000000EDA
 t1336782579
@@ -5441,25 +5447,29 @@ t1336782579
 s24149
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp
-c000000005099EE0F0000000000000381
-t1352265231
-s897
+c00000000509A4CAE000000000000041E
+t1352289454
+s1054
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Autonomous.LinkFileList
-c0000000050990DC50000000000000110
-t1352207813
-s272
+c00000000509A05470000000000000197
+t1352271175
+s407
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o
-t1352265303
-s323652
+t1352289457
+s324448
+
+N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o
+t1352289065
+s70688
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o
-t1352266611
-s105020
+t1352289508
+s104460
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app
-t1352266611
+t1352289508
 s102
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/Info.plist
@@ -5467,8 +5477,8 @@ t1352207813
 s1230
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous
-t1352266611
-s7819372
+t1352289508
+s7826688
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/PkgInfo
 t1352207813
@@ -5489,10 +5499,20 @@ c0000000050990542000000000001BEB5
 t1352205634
 s114357
 
+N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp
+c00000000509A4B250000000000000887
+t1352289061
+s2183
+
+N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.h
+c00000000509A49990000000000000221
+t1352288665
+s545
+
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp
-c000000005099F3A20000000000000C4A
-t1352266658
-s3146
+c00000000509A4CF20000000000000C4B
+t1352289522
+s3147
 
 N/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.h
 c000000005099EDFD0000000000000306
@@ -5511,16 +5531,19 @@ s848
 CBuild AST from /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp
 r0
 
+CBuild AST from /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp
+r0
+
 CBuild AST from /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies94699c232b4ab641^6abc9c232b4ab641^---0#1#0#--18"Check dependencies36"24E774C7-4B72-4B87-B8C1-94F3E5F348FE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2fe1f888844ab641^2521f988844ab641^---0#1#0#--18"Check dependencies36"71D86B1D-DD15-4EEA-BD47-C09D118966FB-
 
 CCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s373958100.768453
-e373958103.148599
+s373982254.585959
+e373982257.243258
 r1
 xCompileC
 x./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o
@@ -5529,11 +5552,24 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp17d3c4d4254ab641^0b0b26d7254ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp0000000000000000^2860"CompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o ../src/AutonomousApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o36"9EB3B125-D7D9-4B0C-8E7C-0BDB8D3C71CA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp3352972e844ab641^6b463e31844ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp0000000000000000^2860"CompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o ../src/AutonomousApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/../src/AutonomousApp.cpp -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/AutonomousApp.o36"BE97043C-3DBB-4976-ACC5-A182CCC9733E-
+
+CCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373981863.248972
+e373981865.959398
+r1
+xCompileC
+x./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o
+x/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp1fda3fa7824ab641^fa9af5a9824ab641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp0000000000000000^2822"CompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o FlowField.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.cpp -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/FlowField.o36"6B18444E-DD57-4AE9-B50B-1569C88D697C-
 
 CCompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s373959459.656407
-e373959461.196137
+s373982345.019051
+e373982346.568183
 r1
 xCompileC
 x./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o
@@ -5542,7 +5578,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp101fa8232b4ab641^153732252b4ab641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp0000000000000000^2810"CompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o Vehicle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o36"9FDFD67E-B0B7-47B0-9116-1EB0E4F1C73D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp76ff0489844ab641^b474918a844ab641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp0000000000000000^2810"CompileC ./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o Vehicle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Vehicle.cpp -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Vehicle.o36"FF8B469C-8A70-4A85-ADCF-0F9EF96FC8D9-
 
 CCpResource CinderApp.icns ./build/Debug/Autonomous.app/Contents/Resources/CinderApp.icns
 s373900613.506066
@@ -5554,14 +5590,14 @@ x./build/Debug/Autonomous.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy ./build/Debug/Autonomous.app/Contents/Resources/CinderApp.icns419a81454549b641^833182454549b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/Resources/CinderApp.icns000000000080d041^436"CpResource CinderApp.icns ./build/Debug/Autonomous.app/Contents/Resources/CinderApp.icns    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/CinderApp.icns /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/Resources36"A9585E2B-88AC-412E-BABF-720C4D1E7852-
 
 CLd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous normal i386
-s373959461.203057
-e373959461.544046
+s373982346.574756
+e373982346.934877
 r1
 xLd
 x/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomousa51034252b4ab641^d8478b252b4ab641^---0#0#0#--1061"Ld ./build/Debug/Autonomous.app/Contents/MacOS/Autonomous normal i386    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -filelist /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Autonomous.LinkFileList -mmacosx-version-min=10.5 ../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous36"B0A1C44A-2627-4506-A881-7C13F3E4583D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous8334938a844ab641^e354ef8a844ab641^---0#0#0#--1061"Ld ./build/Debug/Autonomous.app/Contents/MacOS/Autonomous normal i386    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug -filelist /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Objects-normal/i386/Autonomous.LinkFileList -mmacosx-version-min=10.5 ../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/MacOS/Autonomous36"F61791E0-A744-4312-B8D2-E682BF297B3C-
 
 CProcessInfoPlistFile /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app/Contents/Info.plist Info.plist
 s373900613.493187
@@ -5589,10 +5625,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile Autonomous_Prefix.pch9f7347f2094ab641^164e52f2094ab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Autonomous_Prefix.pch0000000000000000^2856"ProcessPCH++ /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch.pth Autonomous_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/Autonomous-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Autonomous.build/Debug/Autonomous.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/build/Debug --serialize-diagnostics /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch.dia -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/Autonomous_Prefix.pch -o /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Autonomous_Prefix-cekdggyrchkbovapvvfwjhfruxmc/Autonomous_Prefix.pch.d36"F33C5B01-ED08-4EE2-B1CE-6189C6887CFE-
 
 CTouch /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app
-s373959461.552154
-e373959461.562134
+s373982346.943034
+e373982346.953477
 r1
 xTouch
 x/Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.appf5698d252b4ab641^8ae88f252b4ab641^---0#0#0#--203"Touch ./build/Debug/Autonomous.app    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    /usr/bin/touch -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app36"8FA6962A-FAE9-4EDD-B530-D1448D300660-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.appfb77f18a844ab641^0d18f48a844ab641^---0#0#0#--203"Touch ./build/Debug/Autonomous.app    cd /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode    /usr/bin/touch -c /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/./build/Debug/Autonomous.app36"5208D504-B9EC-42D0-92ED-DABAC1019864-
 

@@ -75,8 +75,8 @@
 				00BAE6590E7ED9C10018A608 /* AutonomousApp.cpp */,
 				C6FA30CD16493CF1006562F9 /* Vehicle.h */,
 				C6FA30CC16493CF1006562F9 /* Vehicle.cpp */,
-				C6E59192164A3048001A77BF /* FlowField.cpp */,
 				C6E59193164A3048001A77BF /* FlowField.h */,
+				C6E59192164A3048001A77BF /* FlowField.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";

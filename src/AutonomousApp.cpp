@@ -1,6 +1,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "Vehicle.h"
+#include "FlowField.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -16,6 +17,7 @@ class AutonomousApp : public AppBasic {
     
     Vehicle v;
     Vec2f mousePos;
+    FlowField *f;
     
 };
 
@@ -23,6 +25,9 @@ void AutonomousApp::setup()
 {
     v = Vehicle(getWindowCenter());
     mousePos = Vec2f::zero();
+    f = new FlowField(getWindowSize());
+    f->setup();
+    
 }
 
 void AutonomousApp::mouseDown( MouseEvent event )
@@ -41,12 +46,14 @@ void AutonomousApp::update()
     v.wander();
     v.update();
     v.detectEdge(getWindowSize());
+    //f->update(getElapsedSeconds());
 }
 
 void AutonomousApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
+    //f->draw();
     v.draw();
 }
 

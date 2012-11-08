@@ -1037,4 +1037,6 @@ dependencies: \
   ../../../boost/boost/random/triangle_distribution.hpp \
   ../../../boost/boost/random/uniform_on_sphere.hpp \
   ../../../boost/boost/random/uniform_smallint.hpp \
-  ../../../boost/boost/random/weibull_distribution.hpp
+  ../../../boost/boost/random/weibull_distribution.hpp \
+  /Users/synthresin/Desktop/cinder/apps/Autonomous/xcode/FlowField.h \
+  ../../../include/cinder/Perlin.h
